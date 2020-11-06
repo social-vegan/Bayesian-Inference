@@ -4,7 +4,7 @@ Each variable is represented as a node in the graph and a directed edge between 
 ## Objective
 To find the Bayesian inference on the given data.
 ## Problem  
-In this project we shall estimate the probability distributions or parameters of a given network based on user input. For this, we will make use of a user inputted dataset containing samples comprising of values observed for different variable.
+In this project, we shall estimate the probability distributions or parameters of a given bayesian network based on user input. For this, we will make use of a user inputted dataset containing samples that comprise of values observed for all the different variables in the network.
 - - - -
 ## Input
 ##### Input Format
@@ -137,14 +137,14 @@ Print n lines where for each i from 1 to n, Line i contains the probability dist
 For 1<=i<=n,\
 • Line i: probability distribution of variable Ni 
 ##### Output Explanation
-The output for sample input in input explanation is:
+The output for the sample input in input explanation is:
 ```bash
 0.2 0.8
 0.4 0.6
 0.2 0.4 0.3 0.5 0.8 0.6 0.7 0.5
 ```
 This implies P(N1=TRUE) = 0.2, and P(N1=FALSE) = 0.8.\
-Similarly P(N2=TRUE) = 0.4, and P(N2=FALSE) = 0.6.]
+Similarly P(N2=TRUE) = 0.4, and P(N2=FALSE) = 0.6.\
 Further, P(N3=TRUE|N1=TRUE, N2=TRUE) = 0.2, P(N3=TRUE|N1=TRUE, N2=FALSE) = 0.4, P(N3=TRUE|N1=FALSE, N2=TRUE) = 0.3 and so on.
 - - - -
 
@@ -171,7 +171,9 @@ no,no
 0.5000 0.5000 
 0.2500 0.7500
 ```
-- - - -
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-- - - -
+

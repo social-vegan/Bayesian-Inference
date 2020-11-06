@@ -14,6 +14,7 @@ for i in range(0, n):
             possibleValues[i][j]=possibleValues[i][j][1:len(possibleValues[i][j])]
 
 dependency = []
+# If the input matrix for dependency is symmetric then we get the undirected model inference.
 for i in range(0, n): 
     dependency.append(input().strip().split()) 
     

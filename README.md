@@ -137,7 +137,7 @@ Print n lines where for each i from 1 to n, Line i contains the probability dist
 For 1<=i<=n,\
 • Line i: probability distribution of variable Ni 
 ##### Output Explanation
-The output for the sample input in input explanation is:
+The output for the sample input under input explanation is:
 ```bash
 0.2 0.8
 0.4 0.6

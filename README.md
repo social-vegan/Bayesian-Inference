@@ -1,6 +1,8 @@
 # Bayesian-Inference
 Bayesian network is a directed acyclic graphical representation of a set of variables and their conditional dependencies.\
-Each variable is represented as a node in the graph and a directed edge between the nodes represents the parent-child relationship between the considered nodes. 
+Each variable is represented as a node in the graph and a directed edge between the nodes represents the parent-child relationship between the considered nodes.
+
+Note: To transform the directed bayesian model into an undirected model, the dependency matrix should be made symmetrical.
 ## Objective
 To find the Bayesian inference on the given data.
 ## Problem  
